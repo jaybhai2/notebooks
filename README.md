@@ -23,7 +23,7 @@ git pull --rebase
 ### Squash multiple Commit into one
 git rebase -i HEAD~3
 
-in editor, pick a commit and squash all other
+in editor, pick a commit and squash all other, :wq to save and quit
 
 git push -f origin branch_name
 
